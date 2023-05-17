@@ -1,0 +1,63 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+custom-navbar {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.375;
+  font-family: Rubik, Arial, sans-serif;
+  font-weight: 500;
+  color: #030929;
+}
+
+a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer {
+  background: #ebf4fa;
+}
+
+.navbar {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    27deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(26, 240, 10, 1) 100%
+  );
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  scale: 110%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn {
+  width: 3rem;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.d-block {
+  object-fit: cover;
+  height: 70vh;
+}
